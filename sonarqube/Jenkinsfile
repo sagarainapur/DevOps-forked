@@ -6,7 +6,7 @@ pipeline{
     stages{
        stage('GetCode'){
             steps{
-                git 'https://github.com/sagarainapur/wardviaene-jenkins-course.git'
+                git 'https://github.com/sagarainapur/java-app-forked.git'
             }
          }        
        stage('Build'){
